@@ -1,4 +1,4 @@
-# 基于simbert chinese 的 从无监督数据向有标签数据扩增项目
+# 基于 simbert chinese 的 从无监督数据向有标签数据扩增项目
 
 ## 依赖
 ```py
@@ -19,3 +19,8 @@ conda install mkl-service # mkl只能这样索引
 
 用到的index 是faiss 
 
+## 运行
+
+```py
+python data_augmentation.py
+```
